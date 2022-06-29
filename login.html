@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Welcome to log in page</title>
+    <link rel="stylesheet" type="text/css" href="../css/login.css"/>
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    
+        <!-- font link -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+</head>
+<body>
+<!-- navbar -->
+
+<div id="navbar">
+    
+    <nav>
+       <header>
+           <ul id="menu">
+            <li class="head"> Education-X </li>
+            <li> <a href="home.html"> Home </a> 
+                <ul id="min-nav"></li>
+            <li> <a href="admin.html"> Admin </a> </li>
+            <li> <a href="about-us.html"> About us </a> </li>
+            <li> <a href="contact-us.html"> Contact Us </a> </li>
+            <li> <a href="login.html"> Log in </a> </li>
+            <!-- <li> <a href="login.html" onclick="log()"> Log out </a> </li> -->
+           </ul>
+  
+        </header>
+    </nav>
+  </div>
+  
+  <!-- end navbar -->
+    <div class="login">
+        <div class="Acount-login">
+            <div class="label">
+                <h1> ACOUNT LOGIN</h1>
+            </div>
+            <form action="#" method="POST" class="login-form">
+                <div class="form-group">
+                    <input type="text" placeholder="User Name" class="form-control" required  id="UN"/>
+                </div>
+                <div class="form-group">
+                    <input type="password" placeholder="Password" class="form-control" required  id="PW"/>
+                </div>
+                <div class="remember">
+                    <label class="custom-checkbox">Remember me
+                        <input type="checkbox">
+                        <span class="check-mark"></span>
+                    </label>
+                    <a href="#" class="pull-right">Forgot Password?</a>
+                </div>
+                <a href="#"><button class="btn" onclick="Login()">Login</button></a>
+                <p>Are you new ?<a href="register.html" >Sign up</a></p>
+            </form>
+        </div>
+    </div>
+    <script language="JAVASCRIPT"  type="text/javascript"  src="../j-s/login.js"></script> 
+</body>
+</html>

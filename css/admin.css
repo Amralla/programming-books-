@@ -1,0 +1,261 @@
+body {
+    font-family: "Work Sans";
+    /* background-image: url("../background/23.jpg"); */
+    background: #03506F;
+    background-attachment: fixed;
+}
+
+
+    .clear > section {
+        margin-left: 10%;
+        margin-top: 50px;
+        border-radius: 15px;
+        background-color: rgb(246, 245, 245);
+        display: flex;
+        box-sizing: border-box;
+        position: relative;
+        top: 250px;
+        height: 50%;
+        margin-left: 5%;
+        min-width: 35%;
+        max-width: 50%;
+
+    }
+
+.words {
+    margin: 10px;
+    white-space: normal;
+    text-align: left;
+    font-size: larger;
+    /*line-height: 1.6; */
+}
+.header {
+    font-family: Verdana;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+.fonts {
+    font-family: Georgia, serif;
+
+}
+.click{
+  position: absolute;
+  right:20px;
+  bottom:20px;
+}
+
+.pic-book {
+    box-sizing: border-box;
+    margin: 10px;
+}
+
+/* navbar */
+.head{
+    font-family: "Sofia", sans-serif;
+    font-weight:950 ;
+    font-size: 50px;
+    padding-left: 40px;
+    padding: -20px; 
+    position:sticky ;
+    display:flexbox ;
+    z-index: 200000;
+    
+}
+
+nav{
+    /* background-color: #2c3e50; */
+    background-color: rgba(245, 245, 245, 0.377);
+    position: fixed;
+    display: flexbox;
+    z-index: 100000;
+    top: 0px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+    margin: 0;
+    border: 0px;
+    padding: 0;
+    width:100% ;
+    height: 90px;
+    box-shadow: 0 10px 15px rgba(0,0,0,0.1);
+
+}
+
+nav ul{
+    padding-top: -20px;
+    padding: 0;
+    margin: 0;
+    float: right;
+    margin-right: 30px;
+
+}
+
+nav ul li {
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    align-items: center;
+
+}
+
+nav li a {
+    color:rgb(246, 245, 245) ;
+    text-shadow:rgb(16, 21, 26) ;
+    text-decoration: none;
+    font-size: 40px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 60px;
+    font-size: 20px;
+    font-family: "Work Sans";
+}
+
+nav li a:hover {
+    background-color: rgba(255, 251, 251, 0.425);
+}
+
+/* end nav bar */
+
+.container{
+    margin: 20px auto;
+    width: 1200px;
+    
+}
+.container p {
+    font-size: 20px;
+}
+
+.container .color-switcher{
+    list-style: none;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.container .color-switcher li {
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    display: inline-block;
+
+}
+
+.container .color-switcher li:first-child {
+    background-color: rgb(190, 81, 81);
+}
+
+.container .color-switcher li:nth-child(2) {
+    background-color: rgb(46, 95, 46);;
+}
+
+.container .color-switcher li:nth-child(3) {
+    background-color: rgb(70, 70, 167);
+}
+
+.container .color-switcher li:nth-child(4) {
+    background-color: rgb(190, 174, 226);
+}
+
+
+
+
+.container .test {
+    text-align: center;
+    color: rgb(190, 81, 81);
+}
+
+.container .test-box {
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    padding-top: 40px;
+    border: 2px solid ;
+    border-radius: 15px;
+}
+
+
+.red .container .test {
+    color: rgb(190, 81, 81);
+}
+
+.red .container .test-box{
+    background-color: rgb(190, 81, 81);
+    padding: 20px;
+    color: white;
+}
+
+.green .container .test{
+    color:rgb(46, 95, 46);
+}
+
+.green .container .test-box{
+    background-color: rgb(46, 95, 46);
+    padding: 20px;
+    color: white;
+}
+
+
+
+.blue .container .test {
+    color: rgb(70, 70, 167);
+}
+
+.blue .container .test-box{
+    background-color: rgb(70, 70, 167);
+    padding: 20px;
+    color: white;
+}
+
+.purple .container .test {
+    color: rgb(190, 174, 226);
+}
+
+.purple .container .test-box{
+    background-color: rgb(190, 174, 226);
+    padding: 20px;
+    color: white;
+}
+
+
+
+.chek-box {
+    position: relative;
+    left: 100px;
+    display: inline-block;
+    font-size: 40px;
+    margin: 20px;
+    font-weight: 800;
+    background: #fefefe;
+    align-items: center;
+    border-radius: 15px;
+    border:solid rgb(22, 135, 167) 5px;
+}
+.chek-box p {
+    font-size: 40px;
+    margin: 20px;
+    font-weight: 800;
+}
+
+button{
+    display: inline-block;
+    margin: 20px;
+    margin-left: 100px;
+    background-color: rgba(168, 151, 151, 0.808);
+    align-items: center;
+    font-size: 20px;
+    flood-color:white ;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.container1 p {
+    font-size: 30px;
+    display: inline-block;
+}
+
+#page-font p {
+    font-size: 30px;
+    display: inline-block;
+}

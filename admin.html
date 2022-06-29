@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Education-X</title>
+    <link rel="stylesheet" href="../css/admin.css" />
+        <!-- font link -->
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+
+</head>
+
+<body>
+    <h class="head"> Education-X </h>
+
+    <!-- navbar -->
+
+    <div id="navbar">
+        <nav>
+           <header>
+               <ul id="menu">
+                  <li> <a href="home.html"> Home </a> 
+                      <ul id="min-nav"></li>
+                  <li> <a href="admin.html"> Admin </a> </li>
+                  <li> <a href="about-us.html"> About us </a> </li>
+                  <li> <a href="contact-us.html"> Contact Us </a> </li>
+                  <li> <a href="login.html"> Log in </a> </li>
+                  <li> <a href="login.html" onclick="log()"> Log out </a> </li>
+               </ul>
+      
+            </header>
+        </nav>
+      </div>
+      
+      <!-- end navbar -->
+
+    <section  class="chek-box">
+        <p class="H1">change color and font</p>
+    
+        <div class="container">
+            <ul class="color-switcher">
+            <li data-color="red"></li>
+            <li data-color="green"></li>
+            <li data-color="blue"></li>
+            <li data-color="purple"></li>
+            </ul>
+
+<hr/>
+            <div id="page-font">
+                <p>Font Style : </p>
+               <button  id="font1" onclick="myFunction()"> sans-serif</button>
+               <button  id="font2" onclick="myFunction()"> monospace</button>
+               <button  id="font3" onclick="myFunction()"> cursive</button>
+           </div>
+        <hr/>
+           <div class="container1">
+               <P>Font Size :</P>
+               <button onclick="changefontsize('increase')">A+</button>     
+               <button onclick="changefontsize('decrease')">A-</button>
+        
+           </div>
+        
+           <hr/>
+
+            <h3 class="test" id="test">Colors</h3>
+            <div class="test-box" id="test-box">
+                <h >the Benefits from learn programming</h>
+                <p id="text" >Become smarter—think differently , 
+                    Exercise more ,
+                    Make a positive impact on your career , 
+                    Make more money , 
+                    Enhance your social life , 
+                    Bring your ideas to life , 
+                    Become more self-confident .</p>
+    
+            </div>
+        </div>
+
+
+
+    <script src="../j-s/admin.js"></script>
+    </section>
+
+
+
+</body>
+
+</html>
